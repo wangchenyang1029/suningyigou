@@ -3,6 +3,7 @@ package com.csu.mall.service;
 import com.csu.mall.pojo.Category;
 import com.csu.mall.pojo.Product;
 import com.csu.mall.util.Page4Navigator;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

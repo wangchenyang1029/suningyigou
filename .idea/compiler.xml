@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="csu_super_mall" />
+        <module name="csu-super-mall" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="csu-super-mall" options="-parameters" />
       <module name="csu_super_mall" options="-parameters" />
     </option>
   </component>

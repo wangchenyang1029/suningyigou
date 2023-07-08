@@ -2,6 +2,7 @@ package com.csu.mall.service;
 
 import com.csu.mall.pojo.Address;
 import com.csu.mall.pojo.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

@@ -4,6 +4,7 @@ import com.csu.mall.pojo.Order;
 import com.csu.mall.pojo.OrderItem;
 import com.csu.mall.pojo.Product;
 import com.csu.mall.pojo.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

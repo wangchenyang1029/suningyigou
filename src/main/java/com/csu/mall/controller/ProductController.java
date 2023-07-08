@@ -89,6 +89,7 @@ public class ProductController implements InitializingBean {
 //        8. 把上述取值放在 map 中
 //        9. 通过 Result 把这个 map 返回到前端去
         //从数据库中获取值后，赋值给product对象用于返回
+        System.out.println(pid);
         Product product = productService.getById(pid);
         List<ProductImage> images_single = productImageService.listSingleProductImages(product);
         List<ProductImage> images_detail = productImageService.listDetailProductImages(product);
